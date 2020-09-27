@@ -1,0 +1,49 @@
+.subtitle{
+  font-size: 0.5em;
+  text-transform: none;
+}
+
+LI {
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+LI > UL {
+  font-size: 0.8em;
+  padding-top: 0.4em;
+  padding-bottom: 0em;
+}
+
+
+li.darkonlight {
+  list-style: none;
+}
+
+.source{
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+section { text-align:left; }
+
+.white{
+  background-color: #ffffff;
+  font-color: #000000;
+}
+.centred { text-align: center;}
+.darkonlight{background-color: #ffffff; color: #000000;}
+
+.boxwrapper {
+    border: none;
+    overflow: hidden; /* add this to contain floated children */
+}
+.box1 {
+    float:left; /* add this */
+    border: none;
+    vertical-align: text-top;
+}
+.box2 {
+    border: none;
+    float: left; /* add this */
+    vertical-align: text-top;
+}
