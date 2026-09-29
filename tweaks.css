@@ -128,13 +128,13 @@ table.noborderssmall td {
     margin: 0;
     font-size: 0.6em;}
 
-p.smalltable >* td,th {
+p.smalltable >* td, p.smalltable >* th {
         border: none;
         padding: 0;
         margin: 0;
         font-size: 0.5em;}
 
-.tablewhitefont >* td,th,thead {
+.tablewhitefont >* td, .tablewhitefont >* th, .tablewhitefont >* thead {
                 border: none;
                 color: #ffffff;
                 padding: 0;
@@ -142,7 +142,7 @@ p.smalltable >* td,th {
                 font-size: 0.7em;}
 
 
-span.smalltable >* td,th {
+span.smalltable >* td, span.smalltable >* th {
     border: none;
     color: #000000;
     padding: 0;
@@ -151,7 +151,7 @@ span.smalltable >* td,th {
 
 
 
-div.smalltable >* tr,td{
+div.smalltable >* tr, div.smalltable >* td {
         font-size: 0.75em;
         border: none;
       }
